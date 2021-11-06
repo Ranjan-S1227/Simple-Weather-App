@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- font-link -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Get the Current Weather Data Here</h1>
+    <form action="/" method="POST">
+    
+    <input id ="cityInput" type="text" name="cityName" placeholder="Cityname">
+    <button class="btn btn-dark btn-lg" type="submit ">Go</button>
+    
+    <footer style="padding-top: 20%;">
+        <p>Made by <span style="color: rgb(54, 25, 216);font-family: 'Bebas Neue', cursive;">Ranjan</span></p>
+    </footer>
+   <!-- CSS Styles  -->
+    
+    
+    <style>
+body{
+    background-image: linear-gradient(90deg, rgb(116, 216, 252),rgb(156, 153, 254));    text-align: center;
+margin-top: 20%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+   
+
+    animation: animate 2s ease-in-out infinite ;
+   background: linear-gradient(45deg, #168eff, #1f0361, #0406aa, #23D5AB);
+   background-size: 300%;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+@keyframes animate {
+    0% {background-position: 0% 50%; }
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+form{
+    margin-top: 2.8%;
+}
+
+    </style>
+</form>
+</body>
+</html>
